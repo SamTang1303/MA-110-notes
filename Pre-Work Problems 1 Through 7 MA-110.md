@@ -1,6 +1,8 @@
 ---
-aliases: []
-tags: []
+aliases: 
+tags:
+  - batch/school/class/ma110
+  - batch/math
 ---
 Sam Tang
 Dr. Hunter
@@ -136,6 +138,8 @@ Because these two quantities are equal, the operation is distributive and all of
 
 > [!problem] Problem 1.7
 > Prove that the following is, or is not a group, as appropriate: The set $M_{2}(\mathbb{R})$ of all 2 by 2 matrices, with real numbers as entries, and operation matrix multiplication.
+
+^4bdde9
 
 Let $M_{2}(\mathbb{R})$ be the set of all two by two matrices with real number entries along with the operation, $\cdot$ of matrix multiplication. Let $a,b,c,d \in \mathbb{R}$. Suppose
 $$

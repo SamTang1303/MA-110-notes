@@ -35,7 +35,7 @@ Therefore, $x \in Hg_{0}$ and $g_{0}H\subseteq Hg_{0}$. We can argue similarly t
 
 Let $H\trianglelefteq G$ with $a,b \in G$ and define $X=aH$ and $Y=bH$. In [[Pre-Work Problems 69 Through 72 MA-110#^fc2739|Problem 72]] we showed $XY\subseteq(ab)H$.
 
-Suppose that $n \in (ab)H$. Then, for some $h \in H$, $n =(ab)h$. Note this is equivalent to $a(bh)$. $bh \in bH=Y$ by definition, and $a \in aH$, so $a(bh) \in XY$. Thus, $(ab)H \subseteq XY$ and $XY=(ab)H$.
+Suppose that $n \in (ab)H$. Then, for some $h \in H$, $n =(ab)h$. Note this is equivalent to $a(bh)$. $bh \in bH=Y$ by definition, and $a \in aH=X$, so $a(bh) \in XY$. Thus, $(ab)H \subseteq XY$ and $XY=(ab)H$.
 
 <div class="page-break" style="page-break-after: always;"></div> 
 
@@ -50,6 +50,8 @@ The resulting product cannot be a coset, it has order four while $H$ has order t
 
 > [!problem] Problem 5.76
 > Let $H$ be a normal subgroup of a group $G$. Prove that the set $G/H$ is a group under coset multiplication.
+
+^6bd883
 
 Let $H$ be a normal subgroup of a group $G$, and consider the set $G/H$ under coset multiplication.
 
@@ -83,11 +85,11 @@ $$
 G/H=\{ H, (1,0)H,(1,1)H, (0,1)H\}.
 $$
 
-|          | $H$      | $(1,0)H$ | $(1,1)H$ | $(0,1)H$ |
-| -------- | -------- | -------- | -------- | -------- |
-| $H$      | $H$      | $(1,0)H$ | $(1,1)H$ | $(0,1)H$ |
-| $(1,0)H$ | $(1,0)H$ | $H$      | $(0,1)H$ | $(1,1)H$ |
-| $(1,1)H$ | $(1,1)H$ | $(0,1)H$ | $H$ | $(1,2)H$ |
-| $(0,1)H$ | $(0,1)H$ | $(1,1)H$ | $(1,0)H$ | $H$ |
+|           | $H$       | $(1,0)+H$ | $(1,1)+H$ | $(0,1)+H$ |
+| --------- | --------- | --------- | --------- | --------- |
+| $H$       | $H$       | $(1,0)+H$ | $(1,1)+H$ | $(0,1)+H$ |
+| $(1,0)+H$ | $(1,0)+H$ | $H$       | $(0,1)+H$ | $(1,1)+H$ |
+| $(1,1)+H$ | $(1,1)+H$ | $(0,1)+H$ | $H$      | $(1,2)+H$ |
+| $(0,1)+H$ | $(0,1)+H$ | $(1,1)+H$ | $(1,0)+H$ | $H$      |
 
 $G/H$ is isomorphic to $\mathbb{Z}_{2}\times \mathbb{Z}_{2}$.

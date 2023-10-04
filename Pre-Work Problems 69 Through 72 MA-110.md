@@ -47,6 +47,8 @@ then $xy=(2\ 3)\notin (ab)H=(1\ 2)H = \{ (1\ 2), (1\ 2\ 3) \}$. The statement gi
 > [!problem] Problem 5.71
 > Let $\phi:G\longrightarrow H$ be a homomorphism of groups, and let $K$ be the kernel of $\phi$. Prove that $aK=Ka$ for any $a \in G$.
 
+^efc336
+
 Let $G\longrightarrow H$ be a homomorphism of groups, $a \in G$, and let $K$ be the kernel of $\phi$. We proved [[Pre-Work Problems 64 Through 68 MA-110#^6bf01f|Problem 68]] for left cosets, but an identical proof would clearly hold for right cosets. Therefore, $aK=\{ x \in G: \phi(x)=\phi(a) \}=Ka$.
 
 > [!problem] Problem 72

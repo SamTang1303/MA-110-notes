@@ -1,3 +1,9 @@
+---
+aliases: 
+tags:
+  - batch/school/class/ma110
+  - batch/math
+---
 Sam Tang
 Dr. Hunter
 Abstract Algebra
