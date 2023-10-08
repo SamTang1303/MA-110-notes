@@ -17,8 +17,8 @@ Abstract Algebra
 > 3. Subtraction on $\mathbb{N}$, the set $\{ 1,2,3,\dots \}$ of natural numbers.
 > 4. Division on $\mathbb{R}$, the set of real numbers.
 > 5. Division on $\mathbb{Z}\setminus \{ 0 \}$.
-> 6. Composition on [[D 4 - The group symmetries of a square]].
-> 7. Composition on the set of rotations in [[D 4 - The group symmetries of a square]].
+> 6. Composition on [[D4 - The group symmetries of a square MA-110]].
+> 7. Composition on the set of rotations in [[D4 - The group symmetries of a square MA-110]].
 > 8. Multiplication modulo 6 on $\mathbb{Z}_{6}$.
 
 1. Yes
@@ -44,11 +44,11 @@ Abstract Algebra
     1. No, it is not associative. $(1-2)-3=-4\neq1-(2-3)=2$.
     2. Yes, the identity for the operation is $0$.
     3. All elements of $\mathbb{Z}$ have an inverses under subtraction (their negative.)
-- Composition on [[D 4 - The group symmetries of a square]].
+- Composition on [[D4 - The group symmetries of a square MA-110]].
     1. Yes, $D_{4}$ is associative because it is a group.
     2. Yes, the identity is $\rho_{0}$.
     3. All elements of $D_{4}$ have inverses.
-- Composition on the set of rotations in [[D 4 - The group symmetries of a square]].
+- Composition on the set of rotations in [[D4 - The group symmetries of a square MA-110]].
     1. The set of rotations of $D_{4}$ is also a group, and therefore is associative.
     2. The identity of the set of rotations of $D_{4}$ is similarly $\rho_{0}$.
     3. All elements of the set of rotations of $D_{4}$ have inverses.
@@ -62,8 +62,8 @@ Abstract Algebra
 
 - Addition on $\mathbb{Z}$: Is commutative.
 - Subtraction on $\mathbb{Z}$: Is not commutative. $1-2=-1\neq2-1$.
-- Composition on [[D 4 - The group symmetries of a square]]: Is commutative.
-- Composition on the set of rotations in [[D 4 - The group symmetries of a square]]: Is commutative.
+- Composition on [[D4 - The group symmetries of a square MA-110]]: Is commutative.
+- Composition on the set of rotations in [[D4 - The group symmetries of a square MA-110]]: Is commutative.
 - Multiplication modulo 6 in $\mathbb{Z}_{6}$: Is commutative.
 
 > [!problem] Problem 1.4

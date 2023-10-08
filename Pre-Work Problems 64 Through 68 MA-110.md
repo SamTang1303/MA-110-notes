@@ -28,7 +28,7 @@ $$
 &= \left| X \right| \left| H \right| .
 \end{align}
 $$
-Thus, we can see the order of $H$ divides the order of $G$. This implies the order of every element of $G$ also divides $\left| G \right|$ because the order of an element is determined by the cyclic subgroup it generates.
+Thus, we can see the order of $H$ divides the order of $G$. This implies the order of every element of $G$ also divides $\left| G \right|$ because the order of an element is determined by the [[Definition 2.5 MA-110|cyclic subgroup]] it generates.
 
 > [!problem] Problem 4.65
 > Prove that every group of prime order is cyclic.
@@ -36,26 +36,26 @@ Thus, we can see the order of $H$ divides the order of $G$. This implies the ord
 Let $G$ be a group of prime order. For any $g \in G$, the order of $G$ must be either $1$ or $\left| G \right|$  ([[#^a8723b|Problem 64]]). The only element that can have order one is the identity, so all other elements must have order $\left| G \right|$, meaning they generate every element of the group.
 
 > [!problem] Problem 4.66
-> Show that any homomorphism of groups $\phi:G\longrightarrow H$ where $\left| G \right|$ is prime must be either the trivial homomorphism, or a one-to-one map.
+> Show that any [[Definition 3.1.1 MA-110|homomorphism]] of groups $\phi:G\longrightarrow H$ where $\left| G \right|$ is prime must be either the trivial [[Definition 3.1.1 MA-110|homomorphism]], or a one-to-one map.
 
 ^bda8d5
 
-Let $\phi:G\longrightarrow H$ be a homomorphism of groups where $G$ is prime. Suppose that $\phi$ is not a one-to-one map. Then, by [[Pre-Work Problems 49 Through  53 MA-110#^206abd|Problem 52]], $\left| \ker(\phi) \right|>1$. $\ker(\phi)$ is a subgroup of $G$ and must have an order that is a factor of $\left| G \right|$ by [[#^a8723b|Problem 64]]. $\left| G \right|$ is prime, so this is only possible if $\left| \ker(\phi) \right|=\left| G \right|$. Therefore, the kernel must contain every element of $G$ and $\phi$ is the trivial homomorphism.
+Let $\phi:G\longrightarrow H$ be a [[Definition 3.1.1 MA-110|homomorphism]] of groups where $G$ is prime. Suppose that $\phi$ is not a one-to-one map. Then, by [[Pre-Work Problems 49 Through  53 MA-110#^206abd|Problem 52]], $\left| \ker(\phi) \right|>1$. $\ker(\phi)$ is a subgroup of $G$ and must have an order that is a factor of $\left| G \right|$ by [[#^a8723b|Problem 64]]. $\left| G \right|$ is prime, so this is only possible if $\left| \ker(\phi) \right|=\left| G \right|$. Therefore, the [[Definition 3.4 MA-110|kernel]] must contain every element of $G$ and $\phi$ is the trivial [[Definition 3.1.1 MA-110|homomorphism]].
 
 Thus, $\phi$ must be either trivial, or a one-to-one map.
 
 > [!problem] Problem 4.67
 > Explain why there are no nontrivial homomorphisms $\phi:\mathbb{Z}_{7}\longrightarrow S_{6}$.
 
-Let $\phi:\mathbb{Z}\longrightarrow S_{6}$ be a non-trivial homomorphism.
+Let $\phi:\mathbb{Z}\longrightarrow S_{6}$ be a non-trivial [[Definition 3.1.1 MA-110|homomorphism]].
 By [[#^bda8d5|Problem 66]], $\phi$ must be one-to-one. But if that were the case $\phi(\mathbb{Z}_{7})$ must be order 7 as well, and, by [[Pre-Work Problems 49 Through  53 MA-110#^359dd1|Problem 51]], a subgroup of $S_{6}$. There can be no subgroups of order 7 of $S_{6}$ because $\left| S_{6} \right|=720$, which does not have a factor of 7 (Problem 64.)
 
 > [!problem] Problem 6.68
-> Let $\phi:G\longrightarrow H$ be a homomorphism and let $K=\ker(\phi)$. Let $a$ be a fixed element of $G.$ Prove that $aK=\{ x \in G : \phi(x)=\phi(a) \}$.
+> Let $\phi:G\longrightarrow H$ be a [[Definition 3.1.1 MA-110|homomorphism]] and let $K=\ker(\phi)$. Let $a$ be a fixed element of $G.$ Prove that $aK=\{ x \in G : \phi(x)=\phi(a) \}$.
 
 ^6bf01f
 
-Let $\phi:G\longrightarrow H$ be a homomorphism and let $K=\ker(\phi)$. Let $a$ be a fixed element of $G$.
+Let $\phi:G\longrightarrow H$ be a [[Definition 3.1.1 MA-110|homomorphism]] and let $K=\ker(\phi)$. Let $a$ be a fixed element of $G$.
 
 Let $x \in aK$. Then for some $k \in \ker(\phi)$, $ak=x$. Thus,
 $$

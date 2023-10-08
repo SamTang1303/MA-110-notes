@@ -15,9 +15,9 @@ Abstract Algebra
 > ![[A4_multiplication_table.jpg]]
 > 1. The set $V=\{ (1), (1\,2)(3\,4), (1\,3)(2\,4), (1\,4)(2\,3)\}$ is a subgroup of $A_{4}$. Explain how this fact can be easily verified using the table above
 > 2. Write out the cosets of $V$ in $A_{4}$. (How big are they? How many of them are there?)
-> 3. Print out the above table, or make a screenshot and edit it in a drawing program. Assign a different color to each coset, and color each element in the table according to which coset it belongs to. What do you notice?
+> 3. Print out the above table, or make a screenshot and edit it in a drawing program. Assign a different color to each [[Definition 4.1 and 5.1 MA-110|coset]], and color each element in the table according to which [[Definition 4.1 and 5.1 MA-110|coset]] it belongs to. What do you notice?
 > 4. Name the cosets $X,Y$, and $Z$. Is there an obvious multiplication that makes the sets $\{ X,Y,Z \}$ into a group? Draw a multiplication table.
-> 5. According to the "obvious" multiplication, if $\alpha V$ and $\beta V$ are cosets, what coset is their product $(\alpha V)(\beta V)$?
+> 5. According to the "obvious" multiplication, if $\alpha V$ and $\beta V$ are cosets, what [[Definition 4.1 and 5.1 MA-110|coset]] is their product $(\alpha V)(\beta V)$?
 
 1. We can easily verify the statement in 1. by looking at the top right 4x4 section which corresponds to $V$. Because all of the cells in this area are in $V$, it is closed under multiplication. Because $V$ contains $(1)$, it has the identity. Because every row and column in this section have a $(1)$ in them, every element must have an inverse. This verifies all of the criteria for a subgroup.
 2. $V=\{ (1), (1\ 2)(3\ 4), (1\ 3)(2\ 4), (1\ 4)(2\ 3)\}$, $(1\ 2\ 3)V=\{ (1\ 2\ 3), (2\ 4\ 3), (1\ 4\ 2), (1\ 3\ 4) \}, (1\ 2\ 4)V=\{ (1\ 2 \ 4), (2\ 3\ 4),(1\ 4\ 3), (1\ 3\ 2) \}$.
@@ -45,11 +45,11 @@ In this example, if we choose $a=(1\ 2\ 3)$,  $b = (2\ 3)$, $x=(1)$, and $y =(2\
 then $xy=(2\ 3)\notin (ab)H=(1\ 2)H = \{ (1\ 2), (1\ 2\ 3) \}$. The statement given does not hold.
 
 > [!problem] Problem 5.71
-> Let $\phi:G\longrightarrow H$ be a homomorphism of groups, and let $K$ be the kernel of $\phi$. Prove that $aK=Ka$ for any $a \in G$.
+> Let $\phi:G\longrightarrow H$ be a [[Definition 3.1.1 MA-110|homomorphism]] of groups, and let $K$ be the [[Definition 3.4 MA-110|kernel]] of $\phi$. Prove that $aK=Ka$ for any $a \in G$.
 
 ^efc336
 
-Let $G\longrightarrow H$ be a homomorphism of groups, $a \in G$, and let $K$ be the kernel of $\phi$. We proved [[Pre-Work Problems 64 Through 68 MA-110#^6bf01f|Problem 68]] for left cosets, but an identical proof would clearly hold for right cosets. Therefore, $aK=\{ x \in G: \phi(x)=\phi(a) \}=Ka$.
+Let $G\longrightarrow H$ be a homomorphism of groups, $a \in G$, and let $K$ be the [[Definition 3.4 MA-110|kernel]] of $\phi$. We proved [[Pre-Work Problems 64 Through 68 MA-110#^6bf01f|Problem 68]] for left cosets, but an identical proof would clearly hold for right cosets. Therefore, $aK=\{ x \in G: \phi(x)=\phi(a) \}=Ka$.
 
 > [!problem] Problem 72
 > Let $H$ be a subgroup of a group $G$ with property that $gH=Hg$ for all $g \in G$. Let $a,b \in G$. Prove that if $x \in aH$ and $y \in bH$, then $xy=(ab)H$.

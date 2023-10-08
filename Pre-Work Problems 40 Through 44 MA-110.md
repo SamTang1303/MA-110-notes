@@ -11,7 +11,7 @@ Abstract Algebra
 # Pre-Work Problems 40 Through 44 MA-110
 
 > [!problem] Problem 3.40
-> Draw up an operation table for each of the following groups. Then decide which pairs of these are isomorphic, in the sense of the intuitive "reordering and renaming" description given above; if reordering is necessary, show the reordering; also specify the renaming.
+> Draw up an operation table for each of the following groups. Then decide which pairs of these are [[Definition 3.1.2 MA-110|isomorphic]], in the sense of the intuitive "reordering and renaming" description given above; if reordering is necessary, show the reordering; also specify the renaming.
 > 1. $\langle \mathbb{Z}_{4}, +\rangle$
 > 2. $U(8)$
 > 3. $\mathbb{Z}_{2}\times \mathbb{Z}_{2}$, with operation addition modulo 2 on each component.
@@ -19,7 +19,7 @@ Abstract Algebra
 
 ^fd9a05
 
-$U(8)$ is isomorphic to $\langle \mathbb{Z}_{2}\times \mathbb{Z}_{2}, +\rangle$. If rename the following symbols they should have the same multiplication table
+$U(8)$ is [[Definition 3.1.2 MA-110|isomorphic]] to $\langle \mathbb{Z}_{2}\times \mathbb{Z}_{2}, +\rangle$. If rename the following symbols they should have the same multiplication table
 $$
 \begin{align}
 1 &\to (0,0)\\
@@ -47,7 +47,7 @@ $$
 
 - - -
 
-$\langle \{ 1,-1,i,-i \}, \times \rangle$ is isomorphic to $\langle \mathbb{Z}_{4}, +\rangle$. If we give the following renaming
+$\langle \{ 1,-1,i,-i \}, \times \rangle$ is [[Definition 3.1.2 MA-110|isomorphic]] to $\langle \mathbb{Z}_{4}, +\rangle$. If we give the following renaming
 $$
 \begin{align}
 1 \to 0\\
@@ -75,7 +75,7 @@ then the multiplication tables should match.
 <div class="page-break" style="page-break-after: always;"></div> 
 
 > [!problem] Problem 3.41
-> Suppose that $G$ is an abelian group. Prove that the function defined by $\phi(g) = g^{2}$ is a homomorphism from $G\longrightarrow G$.
+> Suppose that $G$ is an abelian group. Prove that the function defined by $\phi(g) = g^{2}$ is a [[Definition 3.1.1 MA-110|homomorphism]] from $G\longrightarrow G$.
 
 Let $G$ be an abelian group. Consider the function $\phi(g)=g^{2}$. Let $g_{1},g_{2} \in G$.
 $$
@@ -85,10 +85,10 @@ and
 $$
 \phi(g_{1}g_{2}) = (g_{1}g_{2})^{2} = g_{1}g_{2}g_{1}g_{2} = (g_{1}g_{1})(g_{2}g_{2}) = g_{1}^{2}g_{2}^{2} = \phi(g_{1})\phi (g_{2}).
 $$
-Therefore, by Definition 3.1, $\phi$ is a homomorphism from $G\to G$.
+Therefore, by Definition 3.1, $\phi$ is a [[Definition 3.1.1 MA-110|homomorphism]] from $G\to G$.
 
 > [!problem] Problem 3.42
-> Let $G=\langle a\rangle$, where $a$ has order $n$. Define a map $\phi: \langle \mathbb{Z},+\rangle \longrightarrow \langle G, \cdot\rangle$ by $\phi(i)=a^{i}$. Prove that $\phi$ is a homomorphism, but isn't one-to-one.
+> Let $G=\langle a\rangle$, where $a$ has order $n$. Define a map $\phi: \langle \mathbb{Z},+\rangle \longrightarrow \langle G, \cdot\rangle$ by $\phi(i)=a^{i}$. Prove that $\phi$ is a [[Definition 3.1.1 MA-110|homomorphism]], but isn't one-to-one.
 
 ^problem-3-42
 
@@ -102,16 +102,16 @@ $$
 &= \phi(x+y).
 \end{align}
 $$
-Therefore, $\phi$ is a homomorphism.
+Therefore, $\phi$ is a [[Definition 3.1.1 MA-110|homomorphism]].
 
 $\phi$ cannot be one-to-one because $\mathbb{Z}$ is a countably infinite set, so $G$ would have to be as well, but we know $G$ is finite with order $n$. 
 
 > [!problem] Problem 3.43
-> Let $G=\langle a\rangle$, where $a$ has in infinite order. Define a map $\phi: \langle \mathbb{Z},+\rangle\longrightarrow\langle G, \cdot\rangle$ by $\phi(i)=a^{i}$. Prove that $\phi$ is an isomorphism.
+> Let $G=\langle a\rangle$, where $a$ has in infinite order. Define a map $\phi: \langle \mathbb{Z},+\rangle\longrightarrow\langle G, \cdot\rangle$ by $\phi(i)=a^{i}$. Prove that $\phi$ is an [[Definition 3.1.2 MA-110|isomorphism]].
 
 Let $G=\langle a\rangle$ with identity $e$ where $a$ has infinite order and suppose $\phi: \langle \mathbb{Z},+\rangle \longrightarrow \langle G, \cdot\rangle$ such that $\phi(i)=a^{i}$.
 
-None of our work in [[#^problem-3-42|Problem 42]] showing $\phi$ is a homomorphism relies on $G$ having finite order, so we know it must also be a homomorphism when $G$ has infinite order. So, we must only show $\phi$ is bijective.
+None of our work in [[#^problem-3-42|Problem 42]] showing $\phi$ is a [[Definition 3.1.1 MA-110|homomorphism]] relies on $G$ having finite order, so we know it must also be a [[Definition 3.1.1 MA-110|homomorphism]] when $G$ has infinite order. So, we must only show $\phi$ is bijective.
 
 Let $n,m \in \mathbb{Z}$. and suppose $\phi(n)=\phi (m)$. Then,
 $$
@@ -135,15 +135,15 @@ a^{kp+v} &= a^{kp}a^{v}\\
 $$
 This implies every element of $G$ can be represented in the form $a^{v}$ where $v \in \{1 \dots k  \}$. This is impossible because it would create a surjection from a finite set to an infinite set. Therefore, it must be true that $m=n$ and $\phi$ is one-to-one. (Sorry for the clunky proof; I couldn't think of a more elegant way to put it.)
 
-We must now show $\phi$ is onto. Let $g \in G$. By the definition of a cyclic group, $g=a^{m}$ for some $m \in \mathbb{Z}$. Therefore, $\phi(m)=a^{m}=g$. Thus, $\phi$ must be onto as well, proving it is bijective and an isomorphism.
+We must now show $\phi$ is onto. Let $g \in G$. By the definition of a cyclic group, $g=a^{m}$ for some $m \in \mathbb{Z}$. Therefore, $\phi(m)=a^{m}=g$. Thus, $\phi$ must be onto as well, proving it is bijective and an [[Definition 3.1.2 MA-110|isomorphism]].
 
 
 > [!problem] Problem 3.44
-> Let $G$ and $H$ be groups, with identities $e_{G}$ and $e_{H}$, respectively. Let $\phi:G\longrightarrow H$ be a homomorphism. Prove that $\phi(e_{G})=e_{H}$. (Hint: consider $\phi(e_{G}e_{G})$.)
+> Let $G$ and $H$ be groups, with identities $e_{G}$ and $e_{H}$, respectively. Let $\phi:G\longrightarrow H$ be a [[Definition 3.1.1 MA-110|homomorphism]]. Prove that $\phi(e_{G})=e_{H}$. (Hint: consider $\phi(e_{G}e_{G})$.)
 
 ^0d5e59
 
-Let $G$ and $H$ be groups, with identities $e_{G}$ and $e_{H}$, respectively. Further, let $\phi:G\longrightarrow H$ be a homomorphism.
+Let $G$ and $H$ be groups, with identities $e_{G}$ and $e_{H}$, respectively. Further, let $\phi:G\longrightarrow H$ be a [[Definition 3.1.1 MA-110|homomorphism]].
 $$
 \begin{align}
 \phi(e_{G}e_{G}) &= \phi(e_{G})\phi(e_{G}) && \text{Definition of a homomorphism}\\ 

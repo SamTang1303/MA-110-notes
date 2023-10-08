@@ -4,6 +4,7 @@ aliases:
 tags:
   - batch/school/class/ma110
   - batch/math
+type: Problem
 ---
 # Problem 5.78 MA-110
 

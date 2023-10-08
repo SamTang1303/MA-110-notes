@@ -3,6 +3,7 @@ aliases:
 tags:
   - batch/school/class/ma110
   - batch/math
+type: Problem Set
 ---
 Sam Tang
 Dr. Hunter

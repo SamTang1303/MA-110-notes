@@ -11,7 +11,7 @@ Abstract Algebra
 # Pre-Work Problems 49 Through  53 MA-110
 
 > [!problem] Problem 3.49
-> Let $\phi:U(10)\longrightarrow U(10)$ be defined by $\phi(a)=a^{2}$ for all $a \in U(10)$. (You already proved in problem [[Pre-Work Problems 40 Through 44 MA-110#^fd9a05|Problem 40]] that $\phi$ is a homomorphism.) Determine $\phi(U(10))$ and $\ker(\phi)$.
+> Let $\phi:U(10)\longrightarrow U(10)$ be defined by $\phi(a)=a^{2}$ for all $a \in U(10)$. (You already proved in problem [[Pre-Work Problems 40 Through 44 MA-110#^fd9a05|Problem 40]] that $\phi$ is a [[Definition 3.1.1 MA-110|homomorphism]].) Determine $\phi(U(10))$ and $\ker(\phi)$.
 
 Let $\phi:U(10)\longrightarrow U(10)$ be defined by $\phi(a)=a^{2}$ for all $a \in U(10)$, and have identity $e$.
 
@@ -48,11 +48,11 @@ Thus, by definition, $g^{-1} \in \ker(\phi)$ and $\ker(\phi)$ is closed under in
 Therefore, by definition 2.3, $\ker(\phi)$ must be a subgroup of $G$.
 
 > [!problem] Problem 3.51
-> Suppose $G$ and $H$ are groups, and that $\phi:G \longrightarrow H$ is a homomorphism. Let $K$ be a subgroup of $G$. Prove that $\phi(K)$ is a subgroup of $H$.
+> Suppose $G$ and $H$ are groups, and that $\phi:G \longrightarrow H$ is a [[Definition 3.1.1 MA-110|homomorphism]]. Let $K$ be a subgroup of $G$. Prove that $\phi(K)$ is a subgroup of $H$.
 
 ^359dd1
 
-Suppose $G$ and $H$ are groups with identities $e_{G}$ and $e_{H}$, respectively, and that $\phi:G \longrightarrow H$ is a homomorphism.
+Suppose $G$ and $H$ are groups with identities $e_{G}$ and $e_{H}$, respectively, and that $\phi:G \longrightarrow H$ is a [[Definition 3.1.1 MA-110|homomorphism]].
 
 1 ) $e_{G} \in  K$ by Definition 2.3 and $\phi(e_{G})=e_{H}$ by Problem 44. Therefore $e_{H} \in \phi(K)$.
 2 ) Let $h_{1}h_{2} \in \phi(K)$. By definition, there exist some $g_{1}, g_{2} \in K$ such that $\phi(g_{1})=h_{1}$ and $\phi(g_{2}) = h_{2}$. 
@@ -68,11 +68,11 @@ Because $K$ is a subgroup, $g_{1}g_{2} \in K$. Therefore $\phi(g_{1}g_{2})=k_{1}
 Thus, by definition 2.3, $\phi(K)$ must be a subgroup of $H$.
 
 > [!problem] Problem 3.52
-> Suppose that $G$ and $H$ are groups, and that $\phi:G \longrightarrow H$ is a homomorphism. Prove that $\ker(\phi)=\{ e \}$ if and only if $\phi$ is one-to-one.
+> Suppose that $G$ and $H$ are groups, and that $\phi:G \longrightarrow H$ is a [[Definition 3.1.1 MA-110|homomorphism]]. Prove that $\ker(\phi)=\{ e \}$ if and only if $\phi$ is one-to-one.
 
 ^206abd
 
-Let $G$ and $H$ be groups with identities $e_{G}$ and $e_{H}$ respectively, and that $\phi:G\longrightarrow H$ is a homomorphism.
+Let $G$ and $H$ be groups with identities $e_{G}$ and $e_{H}$ respectively, and that $\phi:G\longrightarrow H$ is a [[Definition 3.1.1 MA-110|homomorphism]].
 
 First, we will show the forward direction: Suppose $\ker(\phi)=\{ e_{G} \}$.
 Let $a,b \in G$ and suppose $\phi(a)=\phi(b)$. Consider the following:
@@ -111,10 +111,10 @@ Now, we will show the backward direction: Suppose $\phi$ is one-to-one.
 By [[Pre-Work Problems 40 Through 44 MA-110#^0d5e59|Problem 44]] we know $\phi(e_{G})=e_{H}$. Thus $e_{G} \in \ker(\phi)$. It cannot be that $\phi(a)=e_{H}$ if $a\neq e_{G}$ because $\phi(a)$ would equal $\phi(e_{G})$ and this would violate $\phi$ being one-to-one. Therefore $\ker(\phi)=\{ e_{G} \}$.
 
 > [!problem] Problem 3.53
-> Suppose that $G$ and $H$ are groups, and that $\phi:G \longrightarrow H$ is a homomorphism. Prove that $\phi(G)$ is abelian if and only if, for all $x,y \in G$, $xyx^{-1}y^{-1} \in \ker(\phi)$.
+> Suppose that $G$ and $H$ are groups, and that $\phi:G \longrightarrow H$ is a [[Definition 3.1.1 MA-110|homomorphism]]. Prove that $\phi(G)$ is abelian if and only if, for all $x,y \in G$, $xyx^{-1}y^{-1} \in \ker(\phi)$.
 > 
 
-Let $G$ and $H$ be groups with identities $e_{G}$ and $e_{H}$, respectively, and $\phi:G \longrightarrow H$ be a homomorphism.
+Let $G$ and $H$ be groups with identities $e_{G}$ and $e_{H}$, respectively, and $\phi:G \longrightarrow H$ be a [[Definition 3.1.1 MA-110|homomorphism]].
 
 First, we prove that forward direction: Suppose $\phi(G)$ is abelian and $x,y \in G$.
 $$
