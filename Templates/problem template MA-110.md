@@ -6,6 +6,3 @@ tags:
 type: Problem
 ---
 # <%tp.file.title%>
-
-> [!problem] Problem <%tp.file.cursor(0)%>
-> <%tp.file.cursor(1)%>
