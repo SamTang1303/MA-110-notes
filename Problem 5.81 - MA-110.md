@@ -9,7 +9,7 @@ type: Problem
 # Problem 5.81 MA-110
 
 > [!problem] Problem 5.81
->     In [[Problem 5.71 MA-110|Problem 71]], you proved that all kernels are normal subgroups. Prove that all normal subgroups are kernels. That is, give a group $G$ with a [[Definition 5.2 MA-110|normal subgroup]] $N \trianglelefteq G$, give a definition for a [[Definition 3.1.1 MA-110|homomorphism]] $\phi:G\longrightarrow G/N$ such that $\ker(\phi)=N$, and show that the phi you define really is a [[Definition 3.1.1 MA-110|homomorphism]] with this [[Definition 3.4 MA-110|kernel]].
+> In [[Problem 5.71 MA-110|Problem 71]], you proved that all kernels are normal subgroups. Prove that all normal subgroups are kernels. That is, give a group $G$ with a [[Definition 5.2 MA-110|normal subgroup]] $N \trianglelefteq G$, give a definition for a [[Definition 3.1.1 MA-110|homomorphism]] $\phi:G\longrightarrow G/N$ such that $\ker(\phi)=N$, and show that the phi you define really is a [[Definition 3.1.1 MA-110|homomorphism]] with this [[Definition 3.4 MA-110|kernel]].
 
 Let $N\trianglelefteq G$ for a group $G$, and consider the function $\phi:G\longrightarrow G/N$ such that
 $$

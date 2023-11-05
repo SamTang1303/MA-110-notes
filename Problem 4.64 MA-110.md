@@ -1,6 +1,7 @@
 ---
 aliases:
   - the order of a subgroup divides the order of the group
+  - Lagrange's Theorem
 tags:
   - batch/school/class/ma110
   - batch/math

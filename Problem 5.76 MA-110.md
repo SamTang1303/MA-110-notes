@@ -27,7 +27,7 @@ Therefore, $G/H$ is associative.
 
 By [[Problem 5.74 MA-110|Problem 74]], $G/H$ is closed under multiplication and therefore a valid binary operation.
 
-Let $A \in G/H$. We can represent $A=aH$ and $H=eH$ where $a \in G$ and $e$ is the identity of $G$. Problem 74 states $AH=(aH)(eH)=(ae)H=aH=A$. Thus, by the test for inverses, $H$ is the identity of $G/H$.
+Let $A \in G/H$. We can represent $A=aH$ and $H=eH$ where $a \in G$ and $e$ is the identity of $G$. Problem 74 states $AH=(aH)(eH)=(ae)H=aH=A$. Thus, by [[Problem 1.13 MA-110|the test for inverses]], $H$ is the identity of $G/H$.
 
 Let $A \in G/H$. By definition, we can represent $A=aH$, where $a \in G$. By Problem 74, $(aH)(a^{-1}H)=(aa^{-1})H=H$. Therefore, every element of $G/H$ has an inverse.
 
