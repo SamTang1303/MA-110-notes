@@ -8,7 +8,7 @@ type: Problem
 # Problem 8.118 MA-110
 
 > [!problem] Problem 8.118
->     Let $R$ be a commutative ring. Prove that, if $R$ has no zero divisors, then $R$ has the cancellation property.
+> Let $R$ be a commutative ring. Prove that, if $R$ has no zero divisors, then $R$ has the cancellation property.
 
 Let $R$ be a commutative ring such that $R$ has no zero divisors. Let $a,b,r \in R$ with $r\neq0$ such that $ar=br$.
 $$

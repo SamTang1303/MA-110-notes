@@ -1,6 +1,7 @@
 ---
 aliases:
   - Definition of a divisor of zero in a ring
+  - zero divisor
 tags:
   - batch/school/class/ma110
   - batch/math

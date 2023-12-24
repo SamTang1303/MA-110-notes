@@ -39,5 +39,5 @@ For any element $\phi(r) \in \phi(R)$, $r + I \in R/I$, and $\psi(r+I)=\phi(r)$.
 
 We have now shown $\psi:R/\ker(\phi ) \longrightarrow \phi(R)$ is a [[Problem 6.97 MA-110|ring homomorphism]], one-to-one, and onto. Therefore it is a ring isomorphism and
 $$
-R/\ker(\phi) = \phi(R).
+R/\ker(\phi) \simeq  \phi(R).
 $$
