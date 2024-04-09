@@ -1,5 +1,6 @@
 ---
-aliases: 
+aliases:
+  - Theorem 11.1
 tags:
   - batch/school/class/ma110
   - batch/math

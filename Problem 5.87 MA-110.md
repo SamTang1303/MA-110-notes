@@ -1,5 +1,6 @@
 ---
-aliases: 
+aliases:
+  - Lemma 10.13
 tags:
   - batch/school/class/ma110
   - batch/math

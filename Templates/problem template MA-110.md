@@ -1,7 +1,7 @@
 ---
 aliases: 
 tags:
-  - batch/school/class/ma110
+  - batch/school/class/ma111
   - batch/math
 type: Problem
 ---
